@@ -1,10 +1,11 @@
 # Virtual Environment
 src/api_env/
-api_env/
-**/api_env/
-**/bin/
-**/include/
-**/lib/
-**/lib64/
-**/pyvenv.cfg
+
+# Database files
+**/instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python cache files
 **/__pycache__/
