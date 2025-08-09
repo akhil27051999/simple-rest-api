@@ -1,0 +1,10 @@
+# Virtual Environment
+src/api_env/
+api_env/
+**/api_env/
+**/bin/
+**/include/
+**/lib/
+**/lib64/
+**/pyvenv.cfg
+**/__pycache__/
